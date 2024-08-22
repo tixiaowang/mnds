@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <item type="id" name="vp" />
+    <item type="id" name="vp2" />
+
+    <!--自定义 textView-->
+    <declare-styleable name="ColorFountTextView">
+        <attr name="text_arrays" format="string"/>
+        <attr name="color_arrays" format="string"/>
+        <attr name="textsize_arrays" format="string"/>
+        <attr name="line_arrays" format="string"/>
+        <attr name="style_arrays" format="string"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#226692</color>
+    <color name="colorAccentDark">#113397</color>
+    <color name="colorAccentUnabled">#FFD2D2D2</color>
+
+    <color name="materialColorPrimary">#56d1c2</color>
+    <color name="materialColorPrimaryDark">#56d1c2</color>
+    <color name="materialColorAccent">#56d1c2</color>
+
+
+
+
+    <color name="white_fff">#FFFFFF</color>
+
+    <color name="text_FFFFFF">#ffffff</color>
+    <color name="colorsh">#00000000</color>
+    <color name="bg_000">#000</color>
+    <color name="text_title_333333">#333333</color>
+    <color name="text_normal_333333">#666666</color>
+    <color name="text_assist_bababa">#bababa</color>
+    <color name="im_line_color">#dadada</color>
+    <color name="praise_item_default">#666666</color>
+    <color name="praise_item_selector_default">#cccccc</color>
+    <color name="praise_item">#8290AF</color>
+
+    <color name="default_clickable_color">#cccccc</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="color_8290AF">#8290AF</color>
+    <color name="text_normal_666666">#666666</color>
+    <color name="text_444444">#444444</color>
+    <color name="bg_eeeeee">#eeeeee</color>
+    <color name="white">#ffffff</color>
+
+    <color name="blue">#3394EC</color>
+
+    <color name="video_gray">#aadddddd</color>
+
+
+    <color name="color1">#fff</color>
+    <color name="color2">#f00</color>
+    <color name="color3">#FECD52</color>
+    <color name="color4">#145CB9</color>
+    <color name="color5">#21AE58</color>
+    <color name="color_black_transprent">#aa000000</color>
+    <color name="text_black">#030303</color>
+    <color name="text_black_af">#afafaf</color>
+    <color name="text_black_4f">#4F4F4F</color>
+    <color name="text_black_33">#333333</color>
+    <color name="text_blue">#50d2c2</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_btn">#C8EAE6</color>
+    <color name="text_red">#FF0000</color>
+    <color name="text_letter">#f1f2f2</color>
+    <color name="text_grey">#d8d8db</color>
+    <color name="text_grey2">#939393</color>
+    <color name="text_grey3">#bcbcbc</color>
+    <color name="text_timeaxis">#1d1d26</color>
+
+    <color name="black_overlay">#40000000</color>
+    <color name="translucent">#00000000</color>
+    <color name="huise">#999999</color>
+    <color name="oragin">#FFA94E</color>
+
+
+    <color name="main_teacher">#39A3FF</color>
+
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+    <color name="comment_divider">#cccccc</color>
+    <color name="test_card_line">#dddddd</color>
+    <color name="test_card_title">#343434</color>
+    <color name="test_card_title_content">#666666</color>
+    <color name="test_card_edit_area_bg">#eeeeee</color>
+    <color name="test_card_edit_area_hint">#bababa</color>
+    <color name="test_card_edit_area_text">#666666</color>
+    <color name="test_card_title_green">#3EB968</color>
+    <color name="text_white_fbfbfb">#FBFBFB</color>
+    <color name="text_class_circle_name">#576B95</color>
+    <color name="bottom_tab_text_color_green">#3FB967</color>
+    <color name="bottom_tab_text_color_orange">#FB8C3F</color>
+    <color name="bottom_tab_text_color">#39A3FF</color>
+    <color name="bottom_tab_text_color_blue">#39A3FF</color>
+    <color name="text_key_value_key">#999999</color>
+    <color name="share_link_container_bg">#f2f2f2</color>
+    <color name="text_red_e3332e">#e3332e</color>
+    <color name="common_bg">#FFF4F6F9</color>
+    <color name="common_yellow">#FFFDB260</color>
+    <color name="common_red_warning">#FFFB454B</color>
+    <color name="white_alpha">#F7FFFFFF</color>
+    <color name="text_window">#7D7D7D</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="qupai_gray_0x99">#999999</color>
+    <color name="button_color_green">#15D192</color>
+    <color name="text_note_color_green">#0ACC8B</color>
+    <color name="text_start_prompt_title">#6D6D6F</color>
+    <color name="text_start_prompt_message">#A0A0A3</color>
+    <color name="pageColor">#D6D5D9</color>
+    <color name="switch_bg">#E8E8E8</color>
+    <color name="black_333333">#333333</color>
+    <color name="green_btn">#15D192</color>
+    <color name="individualMaterialColor">#15D192</color>
+    <color name="line_color">#eeeeee</color>
+
+
+</resources>

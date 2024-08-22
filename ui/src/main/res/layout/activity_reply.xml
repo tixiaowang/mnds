@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:id="@+id/op_container"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="回复私信话术"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_hs1"
+            android:textSize="14sp"
+            android:hint="填写自动回复私信话术1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_hs2"
+            android:textSize="14sp"
+            android:hint="填写自动回复私信话术2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_hs3"
+            android:textSize="14sp"
+            android:hint="填写自动回复私信话术3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_hs4"
+            android:textSize="14sp"
+            android:hint="填写自动回复私信话术4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_hs5"
+            android:textSize="14sp"
+            android:hint="填写自动回复私信话术5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="回复评论话术"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_pl_hs1"
+            android:textSize="14sp"
+            android:hint="填写自动回复评论话术1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_pl_hs2"
+            android:textSize="14sp"
+            android:hint="填写自动回复评论话术2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_pl_hs3"
+            android:textSize="14sp"
+            android:hint="填写自动回复评论话术3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="回复关注话术"
+            android:visibility="gone"
+
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_gz_hs1"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:hint="填写自动回复关注话术1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_gz_hs2"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:hint="填写自动回复关注话术2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/et_gz_hs3"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:hint="填写自动回复关注话术3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/cb_reply_gz"
+            android:text="回复关注"
+            android:visibility="gone"
+            android:layoutDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb_reply_pl"
+            android:text="回复评论"
+            android:layoutDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb_reply_sx"
+            android:text="回复私信"
+            android:layoutDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb_reply_first"
+            android:text="只回复第一次私信"
+            android:layoutDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:id="@+id/btn_start_yanghao"
+        app:layout_constraintTop_toBottomOf="@+id/op_container"
+        android:layout_width="wrap_content"
+        android:text="开始自动回复"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

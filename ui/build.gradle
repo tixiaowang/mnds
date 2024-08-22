@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.uu.txw.auto"
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 10000
+        versionName "10.0"
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    compileOnly fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':app')
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+}

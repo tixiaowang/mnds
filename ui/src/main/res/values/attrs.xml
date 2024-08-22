@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyTitleBar">
+        <attr name="mtb_title" format="string"/>
+        <attr name="mtb_btn_text" format="string"/>
+    </declare-styleable>
+    <item name="titleBar_btn_back" type="id"/><!-- 左边的返回键 -->
+    <item name="titleBar_title" type="id"/><!-- 标题 -->
+    <item name="titleBar_btn_ok" type="id"/><!-- 右边的按钮 -->
+
+</resources>
