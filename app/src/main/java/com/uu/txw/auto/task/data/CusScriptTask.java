@@ -6,6 +6,7 @@ public class CusScriptTask {
     public static final String TYPE_SINGLE_THREAD = "串行立即执行";
     public static final String TYPE_SINGLE_THREAD_MAIN_UI = "串行执行[指定应用主页面]";
     public static final String TYPE_BIND_UI = "并行执行[匹配页面]";
+    public static final String TYPE_BIND_UI_MANUALLY_START = "并行立即执行[匹配页面]";
     public String type;
     public String script_id;
     public String task_name;
@@ -24,14 +25,14 @@ public class CusScriptTask {
 
 
 
-    public boolean immediatelySingleThreadTask() {
-        return TYPE_SINGLE_THREAD.equals(this.type);
+    public boolean manuallyStartTask() {
+        return TYPE_SINGLE_THREAD.equals(this.type) || TYPE_BIND_UI_MANUALLY_START.equals(this.type);
     }
     public boolean singleThreadTask() {
         return !bindUiTask();
     }
     public boolean bindUiTask() {
-        return TYPE_BIND_UI.equals(this.type);
+        return TYPE_BIND_UI.equals(this.type) || TYPE_BIND_UI_MANUALLY_START.equals(this.type);
     }
 
 

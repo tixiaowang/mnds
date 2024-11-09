@@ -92,11 +92,11 @@ public class AppInstance {
         }
         if (activity == null || AppInstance.getInstance().checkAccesibilityAndIdConfig(checkIdConfig, activity)) {
                 AppInstance.getInstance().startTask(taskId, runnable);
-            if (TaskId.currScriptTask == null || !TaskId.currScriptTask.immediatelySingleThreadTask()) {
+            if (TaskId.currScriptTask == null || !TaskId.currScriptTask.manuallyStartTask()) {
                 AppHelper.openApp(AppInstance.getInstance().provideContext());
             }
             if (!showStartControl(taskId)) {
-                if (TaskId.get().mStartFromWindow || functionNeedNotLogin(taskId) || (TaskId.currScriptTask != null && TaskId.currScriptTask.immediatelySingleThreadTask())) {
+                if (TaskId.get().mStartFromWindow || functionNeedNotLogin(taskId) || (TaskId.currScriptTask != null && TaskId.currScriptTask.manuallyStartTask())) {
                     TaskId.get().mTaskToggle = true;
                     DelayKit.postDelayed(500, () -> AppInstance.getInstance().backToMainUiReady());
                 } else {
@@ -120,7 +120,7 @@ public class AppInstance {
     private static final List<Integer> needNotLoginTaskList = Collections.emptyList();
 
     public static boolean showStartControl(int taskId) {
-        return showStartControlTaskList.contains(taskId) || (TaskId.currScriptTask != null && TaskId.currScriptTask.immediatelySingleThreadTask());
+        return showStartControlTaskList.contains(taskId) || (TaskId.currScriptTask != null && TaskId.currScriptTask.manuallyStartTask());
     }
 
     public static boolean functionNeedNotLogin(int taskId) {
