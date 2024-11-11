@@ -45,6 +45,10 @@ public class MyAccessService extends AccessibilityService {
                 return;
             }
 
+            if (event.getClassName().toString().endsWith("Dialog")) {
+                //LINEARLAYOUT FRAMELAYOUT和LOADING类型不处理,不参与页面切换监控和action执行
+                return;
+            }
             if (TextUtils.equals(WeUI.CLASS_NAME_LINEARLAYOUT, event.getClassName()) || TextUtils.equals(WeUI.CLASS_NAME_FRAMELAYOUT, event.getClassName())) {
                 //LINEARLAYOUT FRAMELAYOUT和LOADING类型不处理,不参与页面切换监控和action执行
                 return;
