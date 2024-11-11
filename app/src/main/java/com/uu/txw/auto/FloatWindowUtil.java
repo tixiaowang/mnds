@@ -225,11 +225,11 @@ public class FloatWindowUtil {
             FloatWindow
                     .with(this.mContext)
                     .setView(taskControl)
-                    .setWidth(DpUtil.dp2px(136))                               //设置控件宽高
-                    .setHeight(DpUtil.dp2px(95))
+                    .setWidth(DpUtil.dp2px(90))                               //设置控件宽高
+                    .setHeight(DpUtil.dp2px(64))
                     .setX(1)                                   //设置控件初始位置
 //                    .setX(DpUtil.getScreenWidth(UcApp.mContext) - DpUtil.dp2px(UcApp.mContext, 102))                                   //设置控件初始位置
-                    .setY(Screen.height, 0.5f)
+                    .setY(Screen.height, 0.3f)
                     .setDesktopShow(false)                        //桌面显示
                     .setViewStateListener(new ViewStateListenerAdapter() {
                         @Override
