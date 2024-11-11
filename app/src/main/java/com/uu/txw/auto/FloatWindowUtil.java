@@ -229,7 +229,7 @@ public class FloatWindowUtil {
                     .setHeight(DpUtil.dp2px(95))
                     .setX(1)                                   //设置控件初始位置
 //                    .setX(DpUtil.getScreenWidth(UcApp.mContext) - DpUtil.dp2px(UcApp.mContext, 102))                                   //设置控件初始位置
-                    .setY(Screen.height, 0.9f)
+                    .setY(Screen.height, 0.5f)
                     .setDesktopShow(false)                        //桌面显示
                     .setViewStateListener(new ViewStateListenerAdapter() {
                         @Override
