@@ -45,7 +45,7 @@ public class MyAccessService extends AccessibilityService {
                 return;
             }
 
-            if (event.getClassName().toString().endsWith("Dialog")) {
+            if (event.getClassName().toString().endsWith("Dialog") || event.getClassName().toString().endsWith("KeyboardMonitor")) {
                 //LINEARLAYOUT FRAMELAYOUT和LOADING类型不处理,不参与页面切换监控和action执行
                 return;
             }
