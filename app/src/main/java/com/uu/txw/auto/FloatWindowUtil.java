@@ -462,7 +462,8 @@ public class FloatWindowUtil {
         if (FloatWindow.get(tag) != null && !FloatWindow.get(tag).isShowing()) {
             FloatWindow.get(tag).show();
             if ("default_float_window_tag".equals(tag)) {
-                FloatWindow.get(tag).updateY(Screen.height, 0.7f);
+                // TODO: 2024/11/17 ？？？尼玛！！
+                FloatWindow.get(tag).updateY(Screen.height, 0.2f);
             }
         }
     }
